@@ -1,43 +1,40 @@
 # MovieSite
 
-A full-stack movie website built with React, Node.js, Express, and MongoDB.
-
-## Screenshots
-
-### Home Page
-
-![Home Page](./screenshots/home.png)
-
-### Movie Page
-
-![Movie Page](./screenshots/movies.png)
-
-### Login Page
-
-![Login Page](C:\Users\Lenovo\Pictures\Screenshots\Screenshot 2026-09-12 131235.png)
-
-### Movie Details
-
-![Movie Details]("C:\Users\Lenovo\Pictures\Screenshots\Screenshot 2026-09-12 131244.png")
+A full-stack movie website built using **React.js, Node.js, Express.js, and MongoDB**.
 
 ## Features
 
-- Browse movies
-- Search movies
-- View movie details
-- User authentication
-- REST APIs
-- MongoDB database
+* Browse movies
+* Search for movies
+* View movie details
+* User authentication
+* REST API integration
+* MongoDB database
+* Responsive user interface
 
 ## Tech Stack
 
-- React.js
-- Node.js
-- Express.js
-- MongoDB
-- JavaScript
-- HTML
-- CSS
+**Frontend**
+
+* React.js
+* JavaScript
+* HTML
+* CSS
+
+**Backend**
+
+* Node.js
+* Express.js
+* MongoDB
+
+## Project Structure
+
+```text
+MovieSite/
+├── frontend/
+├── backend/
+└── README.md
+```
 
 ## Installation
 
@@ -47,3 +44,25 @@ A full-stack movie website built with React, Node.js, Express, and MongoDB.
 cd frontend
 npm install
 npm run dev
+```
+
+### Backend
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+## Environment Variables
+
+Create a `.env` file inside the backend folder:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+```
+
+## Author
+
+**Anushka Singh**
